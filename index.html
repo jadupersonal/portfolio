@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Franklin Ohaegbulam is a self-taught Frontend/UI Engineer, Visual Designer and Blockchain Enthusiast passionate about Open Source, Accessibility, Inclusive Design and Renewable Energy."
+    />
+    <meta
+      name="keywords"
+      content="Web Design, Software Development, Graphic Design, UI/UX Design, Content Writing, Smart Contracts and DApp Development"
+    />
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://frankiefab.netlify.app" />
+    <meta property="og:title" content="Franklin Ohaegbulam Personal Website" />
+    <meta
+      property="og:description"
+      content="Franklin Ohaegbulam is a self-taught Frontend/UI Engineer, Visual Designer and Blockchain Enthusiast passionate about Open Source, Accessibility, Inclusive Design and Renewable Energy."
+    />
+    <meta
+      property="og:image"
+      content="https://user-images.githubusercontent.com/46662771/154990131-79f43744-4015-445e-993c-7e236f607c4b.JPG"
+    />
+
+    <!-- Twitter Meta Tags  -->
+    <meta property="twitter:card" content="Portfolio Website" />
+    <meta property="twitter:url" content="https://frankiefab.netlify.app" />
+    <meta
+      property="twitter:title"
+      content="Franklin Ohaegbulam Personal Website"
+    />
+    <meta
+      property="twitter:description"
+      content="Franklin Ohaegbulam is a self-taught Frontend/UI Engineer, Visual Designer and Blockchain Enthusiast passionate about Open Source, Accessibility, Inclusive Design and Renewable Energy."
+    />
+    <meta
+      property="twitter:image"
+      content="https://user-images.githubusercontent.com/46662771/154990131-79f43744-4015-445e-993c-7e236f607c4b.JPG"
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="icon" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" sizes="48x48" href="./images/favicon/favicon-48x48.png" />
+    <link
+      rel="icon"
+      sizes="152x152"
+      href="./images/favicon/favicon-152x152.png"
+    />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="./images/favicon/favicon-192x192.png"
+    />
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Washim Akram | Personal Website</title>
+  </head>
+  <body>
+    <!-- <div class="preloader">
+    </div> -->
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="">
+            <img
+              class="dark-logo"
+              src="./assets/images/logo.png"
+              alt="Frankiefab custom logo"
+            />
+            <img
+              class="light-logo hide"
+              src="./assets/images/logo-light.png"
+              alt="Frankiefab custom logo"
+            />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li>
+            <button class="resume-btn">
+              <a
+                id="resume"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="assets/jadu.pdf"
+                >Resume</a
+              >
+            </button>
+          </li>
+
+          <!-- Dark Mode Switch -->
+          <div class="theme-switch">
+            <input type="checkbox" id="toggle-switch" />
+            <label class="theme-icons" for="toggle-switch">
+              <img
+                class="darken"
+                src="./assets/images/icons/moon.svg"
+                alt="dark mode"
+              />
+              <img
+                class="brighten hide"
+                src="./assets/images/icons/sun.svg"
+                alt="light mode"
+              />
+            </label>
+          </div>
+        </ul>
+        <!-- Mobile Hamburger Menu -->
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="left">
+          <span>Hi, I'm Washim👋</span>
+          
+          <h1><span id="element"></span></h1>
+          <p>
+            Experienced in building functional web applications and designing
+            accessible digital products.
+          </p>
+          <a href="#about"
+            >See Why You should Work With Me
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="hidden photo-wrapper">
+          <img
+            loading="lazy"
+            class="photo"
+            src="./assets/images/wsm.jpg"
+            alt=""
+          />
+        </div>
+        <div class="background">
+          <h2 class="title">Background</h2>
+          <h4 class="subtitle">A bit About Me</h4>
+          <!-- <p>
+            I'm a self-taught web developer and visual designer with experience
+            in designing new features from ideation to production,
+            implementation of wireframes and design flows into high performance
+            software applications.
+          </p> -->
+          <p>
+            I'm a self-taught Python developer specializing in Django, with experience in designing, building, and deploying web applications — from ideation and planning to production-ready solutions.
+          </p>
+          <!-- <p>
+            I take into consideration search engine optimization, accessibility
+            and user experience while writing reusable and efficient code.
+          </p> -->
+          <p>
+            I focus on writing clean, efficient, and reusable Python code, while ensuring scalability, maintainability, and performance.
+          </p>
+          <p>
+            I'm passionate about Open Source Software (OSS) with active
+            participation in FOSS communities like
+            <a
+              href="https://communitypro.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Community Pro</a
+            >,
+            <a
+              href="https://aviyel.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Aviyel</a
+            >,
+            <a
+              href="https://chryz-hub.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Chryz Hub</a
+            >,
+            <a
+              href="https://eddiehub.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Eddie Hub</a
+            >
+            and
+            <a
+              href="https://designandcode.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Design &amp; Code Community</a
+            >.
+          </p>
+          <p>
+            Currently, I'm learning Amazon Web Services (AWS) to strengthen my cloud and infrastructure skills, along with Angular 18 to enhance my front-end development expertise.
+            <!-- <a
+              href="https://developerdao.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >DeveloperDAO</a
+            >,
+            <a
+              href="https://scribedao.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ScribeDAO</a
+            >,
+            <a
+              href="https://learnweb3.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LearnWeb3DAO</a
+            >,
+            <a
+              href="https://odysseydao.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >OdysseyDAO</a
+            >,
+            <a
+              href="https://forum.ethernautdao.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >EthernautDAO</a
+            >,
+            <a
+              href="https://webxdao.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WebXDAO</a
+            >; to name but a few. -->
+          </p>
+        </div>
+      </div>
+      <div class="technologies">
+        <h4>My core tools and technologies</h4>
+        <div class="tools">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+          <ul>
+            <li>Python</li>
+            <li>Django</li>
+            <li>RestFramework(DRF)</li>
+          </ul>
+          <ul>
+            <li>Javascript</li>
+            <li>Angular 18V</li>
+            <li>Git</li>
+          </ul>
+          <ul>
+            <li>GitHub</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+          
+          <ul>
+            <li>DSA with JAVA <sup>soon!</sup></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="project" id="project">
+      <div class="project-container">
+        <div class="text">
+          <h2 class="title" data-title="My works">Featured Projects</h2>
+          <p>Some Projects I have worked on</p>
+        </div>
+
+        <div class="project-container">
+          <div class="filter">
+            <button class="filter-btn active" data-filter="*">All</button>
+            <button class="filter-btn" data-filter=".design">Design</button>
+            <button class="filter-btn" data-filter=".software">Software</button>
+            <button class="filter-btn" data-filter=".blockchain">
+              Blockchain
+            </button>
+          </div>
+
+          <div class="projects">
+           
+          </div>
+        </div>
+      </div>
+      <button class="project-btn">
+        <a
+          href="https://www.linkedin.com/in/jaduwasim/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>See More Work </span>
+        </a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </button>
+    </section>
+
+    <!-- Blog -->
+    <!-- <section class="blog" id="blog">
+      <div class="blog-container">
+        <div class="text">
+          <h2 class="title">Latest Articles</h2>
+          <p class="subtitle">
+            Occassionally, I write on valuable topics, concepts and essential
+            tips for developers and designers.
+          </p>
+        </div>
+        <div class="article-wrapper">
+          <div class="hidden article">
+            <img
+              loading="lazy"
+              class="thumbnail"
+              src="./assets/images/projects/blog-img1.jpeg"
+              alt="article banner"
+            />
+            <div class="article-preview">
+              <h4 class="article-title">
+                Learn Blockchain Development By Playing Games
+              </h4>
+              <p class="article-intro">
+                Learning something new through interactive tutorials can be fun
+                especially for gamers. The interesting thing about that the
+                concept of Gamification was employed as a means of learning. For
+                someone like me, I can get really...
+              </p>
+              <a
+                class="readmore"
+                href="https://frankiefab.hashnode.dev/learn-blockchain-development-by-playing-games"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Continue Reading</a
+              >
+            </div>
+          </div>
+
+          <div class="hidden article">
+            <img
+              loading="lazy"
+              class="thumbnail"
+              src="./assets/images/projects/blog-img2.png"
+              alt="article banner"
+            />
+            <div class="article-preview">
+              <h4 class="article-title">
+                First timers’ Practical Guide to Open Source Contribution
+              </h4>
+              <p class="article-intro">
+                An Open Source Software source code is public with everyone
+                having the freedom to understand how the program functions. You
+                can also modify it by fixing issue(s) or bug you...
+              </p>
+              <a
+                class="readmore"
+                href="https://medium.com/@frankiefab100/first-timers-practical-guide-to-open-source-contribution-f1ad553ac79"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Continue Reading</a
+              >
+            </div>
+          </div>
+
+          <div class="hidden article">
+            <img
+              loading="lazy"
+              class="thumbnail"
+              src="./assets/images/projects/blog-img3.jpg"
+              alt="article banner"
+            />
+            <div class="article-preview">
+              <h4 class="article-title">
+                Web Optimization: An overview of Search Engine Optimization
+                (SEO)
+              </h4>
+              <p class="article-intro">
+                SEO is a common term in digital marketing, advertising and web
+                development industry. The essence of having a website is mainly
+                for marketing or online presence. Search engines such as Google
+                and Bing use...
+              </p>
+              <a
+                class="readmore"
+                href="https://dev.to/frankiefab100/web-optimization-an-overview-of-search-engine-optimization-seo-4olk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Continue Reading</a
+              >
+            </div>
+          </div>
+        </div>
+        <button class="blog-btn">
+          <a
+            href="https://frankiefab.hashnode.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Explore Blog</span>
+          </a>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="form-container">
+        <div class="form-text">
+          <h2 class="title">Get In Touch</h2>
+          <p>
+            Do you have a project and/or want to have a chat? <br />
+            Feel free to send me a message, I will definitely reply.
+          </p>
+        </div>
+
+        <form
+          id="contact-form"
+          name="contact"
+          action="./src/contact.html"
+          method="POST"
+          data-netlify="true"
+          onSubmit="submit"
+          data-netlify-honeypot="bot-field"
+        >
+          <input name="bot-field" style="display: none" />
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" name="name" required />
+
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" id="subject" name="subject" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Type your message here..."
+            rows="8"
+            name="message"
+          ></textarea>
+          <button class="contact-btn">SEND MESSAGE</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="email">
+        <i class="fas fa-envelope"></i>
+        <a
+          href="mailto:washimakram1631@gmail.com"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          >washimakram1631@gmail.com</a
+        >
+      </div>
+      <div class="phone">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:+918210805838" target="_blank" rel="nofollow noopener noreferrer">
+          +91 8210805838
+        </a>
+    </div>
+
+      <div class="footer-socials">
+       
+
+        <a
+          href="https://github.com/jaduwasim"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <!-- <a
+          href="https://www.codepen.com/frankiefab100"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-codepen"></i>
+        </a> -->
+
+        <a
+          href="https://www.linkedin.com/in/jaduwasim/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://dev.to/washimakram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-dev"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/jaduakrampoetry/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://dribbble.com/washimpersonal1631"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-dribbble"></i>
+        </a>
+
+       
+      </div>
+      <p class="copyright">
+        Copyright 2025 &copy;
+        <a
+          href="https://about.me/mdwashim"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Washim Akram
+        </a>
+        - All Right Reserved.
+      </p>
+    </footer>
+
+    <div class="scrollup">
+      <a href="#" id="scroll-btn"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/script.js"></script>
+     <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Software Engineer", "Python Developer","Django Developer","Django Rest API", "Angular Developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        cursorChar: "|",
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
